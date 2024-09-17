@@ -23,9 +23,9 @@ const Left = styled.div`
 
 const Logo = styled.img`
   position: absolute;
-  top: 40px;
-  left: 60px;
-  z-index: 10;
+  top: 50px;
+  left: 20px;
+  z-index: 0;
 `;
 const Image = styled.img`
   position: relative;
@@ -89,7 +89,7 @@ const Authentication = ({ openAuth, setOpenAuth }) => {
     <Modal open={openAuth} onClose={() => setOpenAuth(false)}>
       <Container>
         <Left>
-          <Logo src={LogoImage} />
+          {/* <Logo src={LogoImage} /> */}
           <Image src={AuthImage} />
         </Left>
         <Right>

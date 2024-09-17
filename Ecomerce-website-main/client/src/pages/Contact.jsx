@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="container">
       <div className="contact-header">
-        <h1>Contact Uday Arora</h1>
+        <h1>Contact</h1>
         <p>Feel free to get in touch with me via phone or email!</p>
       </div>
 
